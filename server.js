@@ -89,35 +89,6 @@ app.post('/event/add', function (req, res){
 });
 
 
-
-
-    /*
-    *** Update
-    */
-// app.get('/event/edit/:id', function(req,res){
-//     con.query("SELECT * FROM user WHERE id = '"+ req.params.id + "'", function(err,result){
-//         result[0].nom=result[0].nom;
-//         result[0].prenom=result[0].prenom;
-//         res.render('edit',{
-//             siteTitle : siteTitle,
-//             pageTitle : "Editing in: " + result[0].nom,
-//             item : result
-//         })
-//     })
-// })
-
-// app.post('/event/edit/:id',function(req,res){
-//     let query = "UPDATE `user` SET";
-//         query += "`nom` = '"+req.body.nom+"',";
-//         query += "`prenom` = '"+req.body.prenom+"',";
-//         query += "WHERE `user`.`id`="+req.body.id+"";
-//     con.query(query, function(err, result){
-//         if(result.affectedRows){
-//             res.redirect(baseURL);
-//         }
-//     }); 
-// });
-
 app.get('/event/edit/:id',(req, res) => {
 
     

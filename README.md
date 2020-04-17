@@ -1,4 +1,4 @@
-                                                         Application de Gestion de de citations
+                                                         Application de Gestion des éléves
 
 
 
